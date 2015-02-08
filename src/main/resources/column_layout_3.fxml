@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import dk.kyuff.layouts.*?>
+<ThreeColumnLayout alignment="CENTER">
+    <leftColumn>
+        <ColorBox color="black"/>
+        <ColorBox color="green"/>
+        <ColorBox color="blue"/>
+        <ColorBox color="blueviolet"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="tomato"/>
+        <ColorBox color="black"/>
+        <ColorBox color="green"/>
+        <ColorBox color="blue"/>
+        <ColorBox color="blueviolet"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="tomato"/>
+        <ColorBox color="black"/>
+        <ColorBox color="green"/>
+        <ColorBox color="blue"/>
+        <ColorBox color="blueviolet"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="tomato"/>
+    </leftColumn>
+    <centerColumn>
+        <ColorBox color="brown" Row.span="4"/>
+        <ColorBox color="orange"/>
+        <ColorBox color="teal"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="coral"/>
+        <ColorBox color="darkgreen" Row.span="2"/>
+    </centerColumn>
+    <rightColumn>
+        <ColorBox color="darkgrey"/>
+        <ColorBox color="orangered" Row.span="2"/>
+        <ColorBox color="#4775ff" Row.span="1"/>
+        <ColorBox color="mediumvioletred"/>
+        <ColorBox color="orangered" Row.span="3"/>
+        <ColorBox color="cadetblue"/>
+        <ColorBox color="blueviolet" Row.span="4"/>
+        <ColorBox color="pink" Row.span="-1"/>
+    </rightColumn>
+</ThreeColumnLayout>

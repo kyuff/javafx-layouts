@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import dk.kyuff.layouts.*?>
+<SingleColumnLayout alignment="CENTER">
+    <column>
+        <ColorBox color="darkgrey"/>
+        <ColorBox color="orangered" Row.span="2"/>
+        <ColorBox color="#4775ff" Row.span="1"/>
+        <ColorBox color="mediumvioletred"/>
+        <ColorBox color="orangered" Row.span="3"/>
+        <ColorBox color="cadetblue"/>
+        <ColorBox color="blueviolet" Row.span="4"/>
+
+    </column>
+</SingleColumnLayout>

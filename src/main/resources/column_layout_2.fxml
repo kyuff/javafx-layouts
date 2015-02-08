@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import dk.kyuff.layouts.*?>
+<TwoColumnLayout alignment="CENTER">
+    <leftColumn>
+        <ColorBox color="black"/>
+        <ColorBox color="green"/>
+        <ColorBox color="blue"/>
+        <ColorBox color="blueviolet"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="tomato"/>
+        <ColorBox color="black"/>
+        <ColorBox color="green"/>
+        <ColorBox color="blue"/>
+        <ColorBox color="blueviolet"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="tomato"/>
+        <ColorBox color="black"/>
+        <ColorBox color="green"/>
+        <ColorBox color="blue"/>
+        <ColorBox color="blueviolet"/>
+        <ColorBox color="chocolate"/>
+        <ColorBox color="tomato"/>
+    </leftColumn>
+    <rightColumn>
+        <ColorBox color="darkgrey"/>
+        <ColorBox color="orangered" Row.span="2"/>
+        <ColorBox color="#4775ff" Row.span="1"/>
+        <ColorBox color="mediumvioletred"/>
+        <ColorBox color="orangered" Row.span="3"/>
+        <ColorBox color="cadetblue"/>
+        <ColorBox color="blueviolet" Row.span="4"/>
+        <ColorBox color="pink" Row.span="-1"/>
+    </rightColumn>
+</TwoColumnLayout>
