@@ -1,7 +1,7 @@
 package dk.kyuff.layouts.apps.search;
 
 import dk.kyuff.layouts.LabeledTextField;
-import dk.kyuff.layouts.SearchAndResultLayout;
+import dk.kyuff.layouts.SearchLayout;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -21,7 +21,7 @@ public class SearchController implements Initializable {
     @FXML
     LabeledTextField age;
     @FXML
-    SearchAndResultLayout<Person> layout;
+    SearchLayout<Person> layout;
 
     DataBase db;
 

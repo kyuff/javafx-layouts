@@ -16,7 +16,7 @@ import javafx.scene.layout.VBox;
 
 import java.util.List;
 
-public class SearchAndResultLayout<T> extends FlowPane {
+public class SearchLayout<T> extends FlowPane {
 
     ThreeColumnLayout searchBox;
     TableView<T> resultBox;
@@ -27,7 +27,7 @@ public class SearchAndResultLayout<T> extends FlowPane {
 
     ObservableList<TableColumn<T, ?>> tableColumns;
 
-    public SearchAndResultLayout() {
+    public SearchLayout() {
         searchBox = new ThreeColumnLayout(200.0);
 
         resultBox = new TableView<>();

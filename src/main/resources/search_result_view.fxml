@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import dk.kyuff.layouts.SearchAndResultLayout?>
+<?import dk.kyuff.layouts.SearchLayout?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.control.*?>
 <?import dk.kyuff.layouts.LabeledTextField?>
-<SearchAndResultLayout xmlns:fx="http://javafx.com/fxml"
+<SearchLayout xmlns:fx="http://javafx.com/fxml"
                        buttonText="Search for Person" onSearch="#onSearch"
                        fx:id="layout"
                        fx:controller="dk.kyuff.layouts.apps.search.SearchController">
@@ -41,4 +41,4 @@
         </TableColumn>
     </tableColumns>
 
-</SearchAndResultLayout>
+</SearchLayout>
