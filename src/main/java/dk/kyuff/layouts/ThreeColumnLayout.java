@@ -6,17 +6,20 @@ import javafx.scene.layout.FlowPane;
 
 public class ThreeColumnLayout extends BaseColumnLayout {
 
-    private static final double COLUMN_WIDTH = 120.0;
+    private static final double DEFAULT_COLUMN_WIDTH = 120.0;
 
     FlowPane leftColumn;
     FlowPane centerColumn;
     FlowPane rightColumn;
 
     public ThreeColumnLayout() {
-        leftColumn = setupColumn(COLUMN_WIDTH, 0);
-        centerColumn = setupColumn(COLUMN_WIDTH, 1);
-        rightColumn = setupColumn(COLUMN_WIDTH, 2);
+        this(DEFAULT_COLUMN_WIDTH);
+    }
 
+    public ThreeColumnLayout(double columnWidth) {
+        leftColumn = setupColumn(columnWidth, 0);
+        centerColumn = setupColumn(columnWidth, 1);
+        rightColumn = setupColumn(columnWidth, 2);
     }
 
     public ObservableList<Node> getLeftColumn() {

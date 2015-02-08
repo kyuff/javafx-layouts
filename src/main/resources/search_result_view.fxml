@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import dk.kyuff.layouts.SearchAndResultLayout?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.control.*?>
+<?import dk.kyuff.layouts.LabeledTextField?>
+<SearchAndResultLayout xmlns:fx="http://javafx.com/fxml"
+                       buttonText="Search for Person" onSearch="#onSearch"
+                       fx:id="layout"
+                       fx:controller="dk.kyuff.layouts.apps.search.SearchController">
+    <leftColumn>
+        <Label text="Kid"/>
+        <LabeledTextField fx:id="age" labelText="Min Age"/>
+        <LabeledTextField fx:id="name" labelText="Name"/>
+    </leftColumn>
+    <centerColumn>
+        <Label text="Favorites"/>
+        <LabeledTextField fx:id="color" labelText="Color"/>
+        <LabeledTextField fx:id="dolls" labelText="Dolls"/>
+    </centerColumn>
+
+    <tableColumns>
+        <TableColumn text="Age">
+            <cellValueFactory>
+                <PropertyValueFactory property="age"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn text="Name">
+            <cellValueFactory>
+                <PropertyValueFactory property="name"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn text="Color">
+            <cellValueFactory>
+                <PropertyValueFactory property="color"/>
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn text="Dolls">
+            <cellValueFactory>
+                <PropertyValueFactory property="dolls"/>
+            </cellValueFactory>
+        </TableColumn>
+    </tableColumns>
+
+</SearchAndResultLayout>

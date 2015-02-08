@@ -16,7 +16,7 @@ public class ThreeColumnApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        URL resource = getClass().getResource("/column_layout_3.fxml");
+        URL resource = getClass().getResource("/column_view_3.fxml");
         Parent view = FXMLLoader.load(resource);
 
         primaryStage.setTitle("Three Column Layout");
