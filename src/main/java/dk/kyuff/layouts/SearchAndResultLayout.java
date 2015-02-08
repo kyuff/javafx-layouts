@@ -31,6 +31,7 @@ public class SearchAndResultLayout<T> extends FlowPane {
         searchBox = new ThreeColumnLayout(200.0);
 
         resultBox = new TableView<>();
+        resultBox.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         searchBox.widthProperty().addListener((obs, oldValue, newValue) -> resultBox.setPrefWidth(newValue.doubleValue()));
         setAlignment(Pos.TOP_CENTER);
 

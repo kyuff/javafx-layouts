@@ -1,6 +1,7 @@
 package dk.kyuff.layouts.apps.search;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -45,7 +46,7 @@ public class DataBase {
             stream = stream.filter(p -> p.getDolls().toLowerCase().contains(dolls.toLowerCase()));
         }
 
-        return stream.collect(Collectors.toList());
+        return stream.sorted(Comparator.comparing(Person::getAge)).collect(Collectors.toList());
     }
 
 }
